@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <!--link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <--=============== CSS ===============-->
+        <meta name='viewport' content="width=device-width, initial-scale = 1.0">
+        <title>MeowBook - PrizeHunters </title>
+        <link rel="stylesheet" href="css/in.css">
+        <script src="https://kit.fontawesome.com/247d4329e5.js" crossorigin="anonymous"></script>
+        <body>
+            <nav>
+                <div class="nav-left">
+                    <img src="image/images/logo.png" alt="logo" class="logo">
+                    <ul>
+                        <li><img src="image/images/notification.png" alt=""></li>
+                        <li><img src="image/images/inbox.png" alt=""></li>
+                        <li><img src="image/images/video.png" alt=""></li>
+                        
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <div class="search-box">
+                        <img src="image/images/search.png" alt="image-search">
+                        <input type="text" placeholder="Tiềm Kiếm">
+                    </div>
+                    <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                        <img src="image/images/profile-pic.jpg" alt="image-prfile">
+                    </div>
+                </div>
+
+                <!----------------------setting menu----------->
+                <div class="setting-menu">
+                    <div id="dark-btn">
+                        <span></span>
+                    </div>
+
+
+
+
+                    <div class="setting-menu-inner">
+                        <div class="use-profile">
+                            <img src="image/images/profile-pic.jpg" alt="">
+                            <div>
+                                <p>Nguyễn Ngọc Qúy</p>
+                                <a href="">Trang Cá Nhân</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="use-profile">
+                            <img src="image/images/feedback.png" alt="">
+                            <div>
+                                <p>Đóng góp ý kiến</p>
+                                <a href="">Gửi báo cáo về Meowbook</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="setting-links">
+                            <img src="image/images/setting.png" class="setting-icon" alt="">
+                            <a href="#">Cài đặt và quyền riêng tư <img src="image/images/arrow.png" width="10px"></a> 
+                        </div> 
+                        <div class="setting-links">
+                            <img src="image/images/help.png" class="setting-icon" alt="">
+                            <a href="#">Trợ giúp</a> <img src="image/images/arrow.png" width="10px"></a> 
+                        </div> 
+                        <div class="setting-links">
+                            <img src="image/images/display.png" class="setting-icon" alt="">
+                            <a href="#">Màn hình <img src="image/images/arrow.png" width="10px"></a> 
+                        </div> 
+                        <div class="setting-links">
+                            <img src="image/images/logout.png" class="setting-icon" alt="">
+                            <a href="#">Đăng xuất <img src="image/images/arrow.png" width="10px"></a> 
+                        </div> 
+
+                    </div>
+                    
+
+                </div>
+
+
+
+            </nav>
+
+
+
+
+            <div class="container">
+                <!--------------left-sidebar ----------------->
+                <div class="left-sidebar">
+                    <div class="imp-links">
+                        <a href="#"><img src="image/images/news.png" alt="news">Bảng Tin</a>        
+                        <a href="#"><img src="image/images/friends.png" alt="news">Bạn Bè</a>
+                        <a href="#"><img src="image/images/group.png" alt="news">Nhóm</a>
+                        <a href="#"><img src="image/images/marketplace.png" alt="news">Mua Sắm</a>
+                        <a href="#"><img src="image/images/live-video.png" alt="news">Video</a>
+                        <a href="#">Xem Thêm</a>
+
+                    </div>
+                    <div class="shortcut-links">
+                        <p>Lối tắt của bạn</p>
+                        <a href="#"><img src="image/images/shortcut-1.png" alt="">Lập Trình Web</a>
+                        <a href="#"><img src="image/images/shortcut-2.png" alt="">Thiết Kế Website</a>
+                        <a href="#"><img src="image/images/shortcut-3.png" alt="">Full Stack Development</a>
+                        <a href="#"><img src="image/images/shortcut-4.png" alt="">Chia Sẽ Kinh Nghiệm CODE</a>
+
+                    </div>
+
+                </div>
+                <!--------------main-sidebar ----------------->
+
+                <div class="main-content">
+                    <div class="story-gallery">
+                        <div class="story story1">
+                            <img src="image/images/upload.png" alt="">
+                            <p>Tạo Tin</p>
+                        </div>
+                        <div class="story story5">
+                            <img src="image/images/member-1.png" alt="">
+                            <p>Phong</p>
+                        </div>
+                        <div class="story story2">
+                            <img src="image/images/member-2.png" alt="">
+                            <p>Khang</p>
+                        </div>
+                        <div class="story story3">
+                            <img src="image/images/member-3.png" alt="">
+                            <p>Hoa</p>
+                        </div>
+                        <div class="story story4">
+                            <img src="image/images/member-4.png" alt="">
+                            <p>Tú</p>
+                        </div>
+                        
+                    </div>
+                    <div class="write-post-container">
+                        <div class="use-profile">
+                            <img src="image/images/profile-pic.jpg" alt="">
+                            <div>
+                                <p>Nguyễn Ngọc Qúy</p>
+                                <SMall>Chủ Đề <i class="fas fa-caret-down"></i></SMall>
+                            </div>
+                        </div>
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder="Bạn đang nghĩ gì, Ngọc Qúy?"></textarea>
+                            <div class="add-post-links">
+                                <a href="#"><img src="image/images/live-video.png" alt="">Video Trực Tuyến</a>
+                                <a href="#"><img src="image/images/photo.png" alt="">Ảnh/Video</a>
+                                <a href="#"><img src="image/images/feeling.png" alt="">Cảm xúc/Hoạt động</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="row">
+                            <div class="use-profile">
+                                <img src="image/images/profile-pic.jpg" alt="">
+                                <div>
+                                    <p>Nguyễn Ngọc Qúy</p>
+                                    <span>Hôm nay lúc 7:40 AM</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        
+                        <p class="post-test">Hôm nay là thứ 7 anh thích đi thích đi vào bar <span>@Trung Thành</span></p>
+                        <img src="image/images/feed-image-4.jpg " class ="post-img" alt="">
+                        <div class="row">
+                            <div class="activity-icon">
+                                <div><img src="image/images/like-blue.png" alt="">250</div>
+                                <div><img src="image/images/comments.png" alt="">50</div>
+                                <div><img src="image/images/share.png" alt="">10</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="image/images/profile-pic.jpg" alt=""><i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="row">
+                            <div class="use-profile">
+                                <img src="image/images/profile-pic.jpg" alt="">
+                                <div>
+                                    <p>Nguyễn Ngọc Qúy</p>
+                                    <span>Ngày 15 tháng 7 năm 2021 lúc 7:40 PM</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                        </div>
+                        
+                        <p class="post-test">Quẩy lên nào anh em =))) <span>Trung Thành Thái Nghĩa Nhi</span></p>
+                        <img src="image/images/feed-image-2.jpg " class ="post-img" alt="">
+                        <div class="row">
+                            <div class="activity-icon">
+                                <div><img src="image/images/like-blue.png" alt="">250</div>
+                                <div><img src="image/images/comments.png" alt="">50</div>
+                                <div><img src="image/images/share.png" alt="">10</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="image/images/profile-pic.jpg" alt=""><i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="load-more-btn">Tải Thêm</button>
+                </div>
+               <!--------------right-sidebar ----------------->
+
+                <div class="right-sidebar">
+                    <div class="sidebar-title">
+                        <h4>Sự Kiện</h4>
+                        <a href="#">Xem tất cả</a>
+                    </div>
+              
+                    <div class="event">
+                        <div class="left-event">
+                            <h3>19</h3>
+                            <span>Tháng 8</span>
+                        </div>
+                        <div class="right-event">
+                            <h4>Đi Nhậu</h4>           
+                            <P><i class="fas fa-map-marker-alt"></i> Nhà Hàng AnhEm</P>
+                            <a href=>Xem Thêm</a>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="left-event">
+                            <h3>27</h3>
+                            <span>Tháng 8</span>
+                        </div>
+                        <div class="right-event">
+                            <h4>Hạn Cuối BTVN</h4>           
+                            <P><i class="fas fa-map-marker-alt"></i> MSTEAM</P>
+                            <a href=>Xem Thêm</a>
+                        </div>
+                    </div>
+
+                    <p><b class="text-ads"> Sinh Viên Yersin University</b></p>
+                    <p><br></p>
+                    <img src="image/images/advertisement.jpg" class="sidebar-ads" alt="">
+                    
+                        <div class="sidebar-title">
+                            <h4>Trò Chuyện</h4>
+                            <a href="#">Tắt hoạt động</a>
+                        </div>      
+                
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="image/images/member-1.png" alt="">
+                        </div>
+                        <p>Bùi Sĩ Phong</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="image/images/member-2.png" alt="">
+                        </div>
+                        <p>Khang</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="image/images/member-3.png" alt="">
+                        </div>
+                        <p>NY Ngốc</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="image/images/member-4.png" alt="">
+                        </div>
+                        <p>Cẩm Tú</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="image/images/member-5.png" alt="">
+                        </div>
+                        <p>Trung Thành</p>
+                    </div>
+                    <div class="online-list">
+                        <div class="online">
+                            <img src="image/images/member-6.png" alt="">
+                        </div>
+                        <p>Meow</p>
+                    </div>
+                                
+                    
+                </div>
+
+            </div>  
+            <div class="footer">
+                <p>Copyright 2021 - MEOW FB Nguyen Ngoc Quy</p>
+            </div>   
+            <script src="js/in.js"></script>       
+        </body>
+        </head>
+        </html>
+        
